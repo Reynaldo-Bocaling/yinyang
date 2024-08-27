@@ -19,6 +19,18 @@ const Hero = () => {
           >
             The balance between Chads and Jeets.
           </h1>
+          <h1 className="text-stroke-sm text-shadow-md font-title text-3xl text-white z-30">
+            CONTRACT ADDRESS
+          </h1>
+          <p></p>
+          <div className="flex items-center gap-3 bg-red-10 py-3 pl-4 pr-2 rounded-full box-shadow-sm border border-black">
+            <p className="text-xs md:text-xl text-white normal font-bold tracking-wider">
+              TXywC2vJLzWahrij7n7Vu9MEsos6yhZviU
+            </p>
+            <button className="btn text-sm md:text-lg font-title text-black py-2 px-5 rounded-full">
+              COPY
+            </button>
+          </div>
         </div>
       </div>{" "}
       <SlidingText />

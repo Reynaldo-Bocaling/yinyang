@@ -45,7 +45,7 @@ export const socials = [
   },
   {
     img: "/img/socials/dextool.png",
-    url: "",
+    url: "https://www.dextools.io/app/en/tron/pair-explorer/TPDGkr22Ug9NMkigWbt4hdmX7kuJojDN7G?t=1724779049658",
     variant: "w-16 h-16",
   },
   {
