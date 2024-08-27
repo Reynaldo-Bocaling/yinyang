@@ -23,7 +23,7 @@ const Contact = () => {
               <a
                 href={item.url}
                 key={index}
-                className="w-16 h-16 relative flex items-center justify-center  bg-[#fc9191] rounded-full"
+                className="w-16 h-16 relative flex items-center justify-center  bg-[#fd6565] rounded-full"
               >
                 <img
                   src={item.img}

@@ -3,6 +3,7 @@ import { socials } from "../constant";
 import DottedBackground from "../components/DottedBackground";
 import Header from "../components/Header";
 import { IoArrowDown } from "react-icons/io5";
+import SlidingText from "../components/SlidingText";
 
 const Hero = () => {
   return (
@@ -13,13 +14,14 @@ const Hero = () => {
             YIN YANG
           </h1>
           <h1
-            className="text-stroke-lg text-shadow-lg font-title text-3xl md:text-8xl text-white z-30 mb-12
+            className="text-stroke-lg text-shadow-lg font-title text-3xl md:text-8xl text-white z-30
           text-center"
           >
             The balance between Chads and Jeets.
           </h1>
         </div>
       </div>{" "}
+      <SlidingText />
       <DottedBackground />
     </section>
   );
