@@ -81,7 +81,7 @@
 }
 
 .blur-effect-dark {
-    background: rgba(246, 192, 125, 0.6);
+    background: rgba(246, 125, 125, 0.6);
     backdrop-filter: blur(10px);
 }
 

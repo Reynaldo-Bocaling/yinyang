@@ -6,7 +6,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto flex flex-col  items-center justify-center px-5  relative z-20 py-20">
         {" "}
         <h1 className="text-stroke-lg text-shadow-md font-title text-4xl md:text-7xl text-yellow-10 z-30 whitespace-nowrap">
-          ABOUT JASTEN SAN
+          ABOUT YIN YANG
         </h1>
         <p className=" text-white text-2xl font-extrabold tracking-wider mt-7 text-center md:text-left">
           In Chinese thought, YinYang represents two great opposites but
