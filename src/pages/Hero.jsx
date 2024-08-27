@@ -14,7 +14,7 @@ const Hero = () => {
             YIN YANG
           </h1>
           <h1
-            className="text-stroke-lg text-shadow-lg font-title text-3xl md:text-8xl text-white z-30
+            className="text-stroke-lg text-shadow-lg font-title text-3xl md:text-4xl text-white z-30 md:mb-20
           text-center"
           >
             The balance between Chads and Jeets.
