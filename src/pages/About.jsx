@@ -12,9 +12,12 @@ const About = () => {
           In Chinese thought, YinYang represents two great opposites but
           complementary forces at work in the Cosmos.
         </p>
-        <button className="btn text-xl font-title text-white py-3 px-12 rounded-2xl mt-7">
+        <a
+          href="https://www.dextools.io/app/en/tron/pair-explorer/TPDGkr22Ug9NMkigWbt4hdmX7kuJojDN7G?t=1724779049658"
+          className="btn text-xl font-title text-white py-3 px-12 rounded-2xl mt-7"
+        >
           Buy Now
-        </button>
+        </a>
       </div>
     </section>
   );

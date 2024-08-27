@@ -30,9 +30,12 @@ const Header = () => {
             </li>
           ))}
         </ul>
-        <button className="hidden md:flex btn text-xl font-title text-black py-3 px-12 rounded-2xl">
+        <a
+          href="https://www.dextools.io/app/en/tron/pair-explorer/TPDGkr22Ug9NMkigWbt4hdmX7kuJojDN7G?t=1724779049658"
+          className="hidden md:flex btn text-xl font-title text-black py-3 px-12 rounded-2xl"
+        >
           Buy Now
-        </button>
+        </a>
         <button onClick={handleMenu} className="md:hidden">
           <CgMenuRight size={40} className="text-red-10 " />
         </button>
@@ -63,9 +66,12 @@ const Header = () => {
                 </a>
               </li>
             ))}
-            <button className="btn text-xl font-title text-red-200 py-4 px-20 rounded-2xl mt-12">
+            <a
+              href="https://www.dextools.io/app/en/tron/pair-explorer/TPDGkr22Ug9NMkigWbt4hdmX7kuJojDN7G?t=1724779049658"
+              className="btn text-xl font-title text-red-200 py-4 px-20 rounded-2xl mt-12"
+            >
               Buy Now
-            </button>
+            </a>
           </ul>
         </nav>
       )}
