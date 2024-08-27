@@ -67,8 +67,8 @@
 }
 
 .btn {
-    background-color: rgb(249, 173, 22);
-    box-shadow: 0px 7px 0 rgb(216, 133, 8), 0px -3px 0 rgb(250, 206, 94);
+    background-color: rgb(249, 22, 22);
+    box-shadow: 0px 7px 0 rgb(216, 29, 8), 0px -3px 0 rgb(250, 110, 94);
 }
 
 .box-shadow-sm {
@@ -81,9 +81,18 @@
 }
 
 .blur-effect-dark {
-    background: rgba(246, 125, 125, 0.6);
+    background: rgba(246, 192, 125, 0.6);
     backdrop-filter: blur(10px);
 }
+
+
+
+@media (max-width: 768px) {
+    .text-shadow-lg {
+        text-shadow: 5px 5px 0px black;
+    }
+}
+
 
 
 #hero {
@@ -91,10 +100,4 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-    .text-shadow-lg {
-        text-shadow: 5px 5px 0px black;
-    }
 }

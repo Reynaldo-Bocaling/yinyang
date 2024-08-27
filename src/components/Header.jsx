@@ -40,7 +40,7 @@ const Header = () => {
 
       {isOpen && (
         <nav className="shadow-effect fixed left-0 bottom-0 w-full h-full  z-[999] blur-effect-dark py-5 md:hidden flex flex-col items-center justify-start duration-300 transition-all border-4 border-red-10 rounded-3xl overflow-hidden">
-          <div className="flex items-center justify-between   mb-20 w-full blur-effects rounded-full bg-[#e7afaf] py-4 px-7">
+          <div className="flex items-center justify-between   mb-20 w-full blur-effects rounded-full bg-[#e7afaf] py-4 pr-7">
             <div className="  flex items-center">
               <Lottie animationData={animationLogo} className="w-28" />
               <h1 className="text-stroke-sm text-shadow-sm font-title text-4xl text-yellow-10 -ml-5">
