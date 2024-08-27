@@ -35,12 +35,12 @@ export const tokenomics = [
 export const socials = [
   {
     img: "/img/socials/x.png",
-    url: "",
+    url: "https://x.com/yinyangtrx",
     variant: "w-16 h-10",
   },
   {
     img: "/img/socials/tele.png",
-    url: "",
+    url: "https://t.me/YinyangTrx",
     variant: "w-16 h-16",
   },
   {
