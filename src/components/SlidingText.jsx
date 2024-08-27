@@ -2,7 +2,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 const SlidingText = () => {
   return (
-    <section className="w-full py-5 overflow-hidden bg-red-500s">
+    <section className="w-full py-2 overflow-hidden bg-red-500s">
       <Marquee direction="right">
         {Array.from({ length: 100 }, (_, i) => (
           <p
