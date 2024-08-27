@@ -4,19 +4,14 @@ import { navlinks, socials } from "../constant";
 import { CgMenuRight } from "react-icons/cg";
 import { FaTimes } from "react-icons/fa";
 import animationLogo from "../assets/json-animations/logo.json";
-import DottedBackground from "./DottedBackground";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleMenu = () => setIsOpen((prev) => !prev);
 
   return (
-    <header
-      className={`${
-        isOpen ? "z-50" : "z-20"
-      } relative w-full  md:px-7 bg-[#662e2e] pt-5 pb-28`}
-    >
-      <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 pr-8 blur-effects rounded-full bg-[#ff7878] relative z-30">
+    <header className="relative w-full z-50 bg-[#5f1515]">
+      <nav className="max-w-7xl mx-auto flex items-center justify-between py-4 pr-8 blur-effects  bg-[#671919]">
         <div className="  flex items-center">
           <Lottie animationData={animationLogo} className="w-28" />
           <h1 className="text-stroke-sm text-shadow-sm font-title text-4xl text-yellow-10 -ml-5">
@@ -45,13 +40,11 @@ const Header = () => {
 
       {isOpen && (
         <nav className="shadow-effect fixed left-0 bottom-0 w-full h-full  z-[999] blur-effect-dark py-5 md:hidden flex flex-col items-center justify-start duration-300 transition-all border-4 border-red-10 rounded-3xl overflow-hidden">
-          <div className="flex items-center justify-between   mb-20 w-full blur-effects rounded-full bg-[#e7afaf] py-4 pr-7">
-            <div className="  flex items-center">
-              <Lottie animationData={animationLogo} className="w-28" />
-              <h1 className="text-stroke-sm text-shadow-sm font-title text-4xl text-yellow-10 -ml-5">
-                YIN YANG
-              </h1>
-            </div>
+          <div className="flex items-center justify-between   mb-20 w-full blur-effects rounded-full bg-[#e7afaf] py-4 px-7">
+            <h1 className="text-stroke-sm text-shadow-sm font-title text-3xl text-red-10  flex items-center  ">
+              <img src="/img/logo.png" className="w-12" alt="logo" />
+              JASTEN SAN
+            </h1>{" "}
             <button onClick={handleMenu} className="md:hidden ">
               <FaTimes size={40} className="text-red-10 " />
             </button>
@@ -74,7 +67,6 @@ const Header = () => {
           </ul>
         </nav>
       )}
-      <DottedBackground />
     </header>
   );
 };
