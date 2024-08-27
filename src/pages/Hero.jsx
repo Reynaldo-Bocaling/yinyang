@@ -7,7 +7,7 @@ import { IoArrowDown } from "react-icons/io5";
 const Hero = () => {
   return (
     <section id="hero" className="relative w-full z-40">
-      <div className="relative max-w-7xl mx-auto flex flex-col items-center justify-end gap-5  pb-9 md:pb-0 h-[40rem]">
+      <div className="relative max-w-7xl mx-auto flex flex-col items-center justify-end gap-5  pb-9 md:pb-0 h-[37rem]">
         <div className="flex flex-col items-center justify-center gap-5  z-20 ">
           <h1 className="text-stroke-lg text-shadow-lg font-title text-8xl md:text-14xl text-yellow-10 z-30 whitespace-nowrap">
             YIN YANG
